@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    background-image: radial-gradient(hsl(214, 47%, 23%) , hsl(237, 49%, 15%));
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    transition: 0.9s all;
+}
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    color: hsl(229, 25%, 31%);
+    border-radius: 15px;
+    margin: 10px;
+    font-size:36px;
+}
+.winner{
+    width: 300px;
+    font-size:19px;
+    text-wrap: wrap;
+    text-transform: uppercase;
+
+}
+main,.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px;
+    border-radius: 15px;
+    border: 5px solid hsl(229, 25%, 31%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.borderrock{
+    border-radius: 50%;
+    padding:10px;
+    background-image: linear-gradient(to top,hsl(349, 71%, 52%) , hsl(349, 70%, 56%));
+}
+.borderpaper{
+    border-radius: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to top,hsl(230, 89%, 62%) , hsl(230, 89%, 65%));
+}
+.borders{
+    border-radius: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to top,hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+}
+.borderl{
+    border-radius: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to top,hsl(261, 73%, 60%) , hsl(261, 72%, 63%));
+}
+.borderspock{
+    border-radius: 50%;
+    padding: 10px;
+    background-image: linear-gradient(to top,hsl(189, 59%, 53%) , hsl(189, 58%, 57%));
+}
+button{
+    width:150px;
+    padding: 15px 25px;
+    border-radius: 50%;
+    height: 150px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+footer button{
+    width: 200px;
+    height: 200px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p{
+ margin: 0;
+ padding-top: 15px;
+}
+footer{
+    display: none;
+}
+#playagain{
+    display: block;
+}
+footer button{
+    display: none;
+}
+.container12{
+    display: none;
+}
+.container1{
+    display: none;
+    flex-wrap: wrap;
+}
+span{
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: hsl(210, 68%, 62%); /* A lighter blue */
+    color: darkblue;
+    border: 4px solid hsl(210, 83%, 33%);
+    font-size: 23px;
+    text-align: center;
+    font-weight: 400;
+}
+.container1 button{
+    width: 100px;
+    height: 100px;
+}
+.userchoice,.computerchoice,.userside,.computerside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.result{
+    background-color: white;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: larger;
+    margin-bottom: 25px;
+    border-radius: 13px;
+    text-transform: uppercase;
+    width: 100%;
+    
+    background-color: hsl(69, 100%, 70%); /* A lighter blue */
+    color: rgb(95, 69, 0);
+    border: 4px solid hsl(48, 83%, 33%);
+}
+.itmesw{
+    display:none;
+}
+.win{
+    display: block; /*only display block mate biji koi css pavi nai*/
+}
+.bonusitmesw{
+    display: none;
+}
+.bwin{
+    display: block; /*only display block mate biji koi css pavi nai*/
+}
+.footer{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bdisplay{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#finalwinner{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+}
+.displaymsg{
+    font-size: larger;
+
+}
+.display .borderpaper,.display .borderl,.display .borderrock,.display .borderspock,.display .borders{
+    display: none;
+}
+.bdisplay .borderpaper,.bdisplay .borderl,.bdisplay .borderrock,.bdisplay .borderspock,.bdisplay .borders{
+    display: none;
+}
+.hihi{
+    width: 60%;
+    text-align: center;
+    font-size:x-large;
+    background-color: hsl(210, 68%, 62%); /* A lighter blue */
+    color: darkblue;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#text{
+    width:200px;
+    text-align: center;
+    font-size:x-large;
+    background-color: white;
+    border-radius: 15px;
+    color: hsl(229, 25%, 31%);
+}
+#playagain{
+    padding: 10px 15px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    border: 5px solid hsl(229, 25%, 31%);
+}
+@media screen and (max-width:767px) {
+    nav{
+        width: 90%;
+    }
+    .winner{
+        width: 100px;
+    }
+    .container button{
+        width: 100px;
+        height: 100px;        
+    }
+    .footer button{
+        width: 100px;
+        height: 100px;   
+    }
+    .display .borderpaper,.display .borderl,.display .borderrock,.display .borderspock,.display .borders{
+        display: none;
+        width: 100px;
+        height: 100px;
+    }
+    .bdisplay .borderpaper,.bdisplay .borderl,.bdisplay .borderrock,.bdisplay .borderspock,.bdisplay .borders{
+        display: none;
+        width: 100px;
+        height: 100px;
+    }
+    .result{
+        font-size:16px;
+        width: 90%;
+    }
+    #finalwinner{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
